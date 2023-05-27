@@ -41,7 +41,7 @@ function nextSequence(){
 }
 
 function playSound(name){
-  audio = new Audio("sounds/"+name+".mp3");
+  audio = new Audio(name+".mp3");
   audio.play();
 }
 
